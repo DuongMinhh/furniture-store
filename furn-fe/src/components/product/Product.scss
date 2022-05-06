@@ -1,0 +1,47 @@
+.ProductDetail {
+    @media (min-width: 992px) {
+        width: 100%;
+        margin: 0;
+
+        .product-img {
+            width: 100%;
+        }
+
+        .product-name {
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .product-description {
+            margin: 10px 0;
+        }
+
+        .product-cost {
+            font-weight: bold;
+            color: #670000;
+        }
+    }
+
+    @media (max-width: 991px) {
+        width: 90%;
+        margin: 5%;
+
+        .product-img {
+            width: 100%;
+        }
+
+        .product-name {
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .product-description {
+            margin: 10px 0;
+        }
+
+        .product-cost {
+            font-weight: bold;
+            color: #670000;
+        }
+    }
+}
