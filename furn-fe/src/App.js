@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
-import './scss/variables.module.scss'
+import './scss/GlobalStyle.scss'
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (

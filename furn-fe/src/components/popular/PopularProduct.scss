@@ -1,5 +1,5 @@
 .PopularProduct {
-    height: 100vh;
+    // min-height: 100vh;
 
     @media (min-width: 992px) {
         margin: 50px 10% 0 10%;
@@ -63,5 +63,9 @@
                 }
             }
         }
+    }
+
+    .discover-more-btn {
+        margin: 25px;
     }
 }

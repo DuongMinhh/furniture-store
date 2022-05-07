@@ -1,14 +1,17 @@
 $bg-img: url('../../share/img/furniture-banner.jpg');
 
 .Banner {
-    // border: 1px solid red;
-
-    @media (min-width: 992px) {
-        height: 100vh;
-    }
 
     @media (max-width: 991px) {
         height: 55vh;
+    }
+
+    @media (min-width: 992px) and (max-width: 1249px) {
+        height: 70vh;
+    }
+
+    @media (min-width: 1250px) {
+        height: 90vh;
     }
 
     background-image: $bg-img;
@@ -20,16 +23,26 @@ $bg-img: url('../../share/img/furniture-banner.jpg');
     .SaleInfo {
         position: absolute;
 
-        @media (min-width: 992px) {
+        @media (max-width: 991px) {
+            animation-name: slipMobile;
+            animation-duration: 0.5s;
+        }
+
+        @media (min-width: 992px) and (max-width: 1249px) {
+            top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            animation-name: slipMobile;
+            animation-duration: 0.5s;
+        }
+
+        @media (min-width: 1250px) {
             top: 50px;
             left: 50px;
             animation-name: slipWeb;
             animation-duration: 1s;
-        }
-
-        @media (max-width: 991px) {
-            animation-name: slipMobile;
-            animation-duration: 0.5s;
         }
     }
 }

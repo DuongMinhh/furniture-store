@@ -5,6 +5,7 @@ import product1 from '../../share/products/product1.png';
 import product2 from '../../share/products/product2.png';
 import product3 from '../../share/products/product3.png';
 import Product from '../product/Product';
+import '../../scss/GlobalStyle.scss';
 
 const description = {
     description: 'Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
@@ -214,6 +215,9 @@ export default function PopularProduct() {
                         )
                     }
                 </Tabs>
+                <div className='discover-more-btn'>
+                    <a className='global-info-btn' href='#'>Discover More</a>
+                </div>
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SaleInfo.scss'
+import './SaleInfo.scss';
 
 const data = {
     salePercent: 'SALE UPTO 70%',
