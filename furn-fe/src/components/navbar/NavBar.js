@@ -1,3 +1,5 @@
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
 import './NavBar.scss';
@@ -7,30 +9,30 @@ export default function NavBar() {
         <div className="NavBar">
             <Navbar bg="custom" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="#home">FURN STORE</Navbar.Brand>
+                    <Navbar.Brand href="/">FURN STORE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#product">Product</Nav.Link>
-                            <Nav.Link href="#story">Story</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
-                            <NavDropdown title="Navigation" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Your cart</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Register</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Login</NavDropdown.Item>
+                            <Nav.Link href="/">Trang chủ</Nav.Link>
+                            <Nav.Link href="/san-pham">Sản phẩm</Nav.Link>
+                            <Nav.Link href="#story">Câu chuyện</Nav.Link>
+                            <Nav.Link href="#contact">Liên hệ</Nav.Link>
+                            <NavDropdown title="Chuyển đến" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">Giỏ hàng</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">Đăng ký</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3">Đăng nhập</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Contribute us</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.4">Góp ý cho chúng tôi</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
-                        <Form className="d-flex">
+                        <Form className="d-flex search-form">
                             <FormControl
                                 type="search"
-                                placeholder="Search"
-                                className="me-2"
+                                placeholder="Tìm kiếm sản phẩm"
+                                className="me-2 input-search-form"
                                 aria-label="Search"
                             />
-                            <Button className="btn-info">Search</Button>
+                            <Button className="btn-info btn-search-form"><FontAwesomeIcon icon={faSearch} /></Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

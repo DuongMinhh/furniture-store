@@ -7,7 +7,7 @@ export default function Footer() {
         <div className='Footer'>
             <footer className="text-center text-lg-start bg-light text-muted">
                 <section
-                    className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-top"
+                    className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-top px-5"
                 >
                     <div className="me-5 d-none d-lg-block">
                         <span>Liên hệ với chúng tôi thông qua</span>
@@ -64,7 +64,7 @@ export default function Footer() {
                     </div>
                 </section>
 
-                <div className="text-center p-4" style={{ "background-color": "#F2E1D9" }}>
+                <div className="text-center p-4" style={{ "backgroundColor": "#F2E1D9" }}>
                     <a className="text-reset fw-bold">© 2022 Copyright: DuongMinh</a>
                 </div>
             </footer>

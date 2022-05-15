@@ -1,12 +1,12 @@
 import React from 'react';
+import Layout from '../components/layout/Layout';
 import PopularProduct from '../components/popular/PopularProduct';
-import Layout from './Layout';
 
-export default function Home() {
+export default function HomePage() {
     return (
         <>
             <Layout
-                ChildComponent={PopularProduct}
+                childComponent={<PopularProduct />}
                 displayBanner={true}
             />
         </>

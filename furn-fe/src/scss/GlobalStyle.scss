@@ -22,4 +22,9 @@
         background: #FD8F5F;
         text-decoration: none;
     }
+
+    @media (max-width: 991px) {
+        display: block;
+        // margin: 10px;
+    }
 }

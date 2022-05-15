@@ -1,5 +1,6 @@
 import React from 'react';
 import './SaleInfo.scss';
+import '../../../scss/GlobalStyle.scss';
 
 const data = {
     salePercent: 'SALE UPTO 70%',
@@ -18,7 +19,7 @@ export default function SaleInfo() {
             <div className='description'>
                 {data.description}
             </div>
-            <a className='link btn btn-info'>
+            <a className='global-info-btn'>
                 Discover More
             </a>
         </div>

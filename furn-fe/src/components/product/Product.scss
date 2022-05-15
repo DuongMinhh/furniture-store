@@ -1,5 +1,11 @@
-.ProductDetail {
+.Product {
     @media (min-width: 992px) {
+
+        .product-name {
+            text-decoration: none;
+            color: #212529;
+        }
+
         width: 100%;
         margin: 0;
 
