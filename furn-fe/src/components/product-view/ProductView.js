@@ -231,7 +231,7 @@ export default function ProductView() {
                     }
                 </Tabs>
                 <div className='discover-more-btn'>
-                    <a className='global-info-btn' href='#'>Discover More</a>
+                    <a className='global-info-btn' href='#'>Xem thêm</a>
                 </div>
             </div>
         </div>

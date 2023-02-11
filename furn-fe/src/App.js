@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
-import './scss/GlobalStyle.scss'
+import './scss/GlobalStyle.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import { Route, Routes } from 'react-router-dom';
 import ProductDetailPage from './pages/ProductDetailPage';

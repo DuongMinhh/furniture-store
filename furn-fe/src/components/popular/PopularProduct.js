@@ -216,7 +216,7 @@ export default function PopularProduct() {
                     }
                 </Tabs>
                 <div className='discover-more-btn'>
-                    <a className='global-info-btn' href='#'>Discover More</a>
+                    <a className='global-info-btn' href='/san-pham'>Xem tất cả sản phẩm</a>
                 </div>
             </div>
         </div>

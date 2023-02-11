@@ -1,5 +1,5 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
+import React from 'react';
+import { useParams } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
 import ProductDetail from '../components/product-detail/ProductDetail';
 
